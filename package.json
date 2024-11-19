@@ -1,0 +1,17 @@
+{
+  "name": "pasha",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "imagemin-webp": "^8.0.0",
+    "sass": "^1.81.0",
+    "vite": "^5.4.10",
+    "vite-plugin-imagemin": "^0.6.1"
+  }
+}
