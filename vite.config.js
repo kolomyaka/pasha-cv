@@ -1,40 +1,15 @@
-import viteImagemin from 'vite-plugin-imagemin'
-import imageminWebp from "imagemin-webp";
+import {ViteImageOptimizer} from "vite-plugin-image-optimizer";
+import {defineConfig} from "vite";
 
-export default () => {
+export default defineConfig(() => {
     return {
+        build: { outDir: './' },
+        // needed for github pages just put the repo name here
+        base: 'pasha-cv',
         plugins: [
-            viteImagemin({
-                gifsicle: {
-                    optimizationLevel: 7,
-                    interlaced: false,
-                },
-                optipng: {
-                    optimizationLevel: 7,
-                },
-                mozjpeg: {
-                    quality: 20,
-                },
-                pngquant: {
-                    quality: [0.1, 0.2],
-                    speed: 0,
-                    level: 7
-                },
-                svgo: {
-                    plugins: [
-                        {
-                            name: 'removeViewBox',
-                        },
-                        {
-                            name: 'removeEmptyAttrs',
-                            active: false,
-                        },
-                    ],
-                },
-                webp: imageminWebp({
-                    quality: 50,
-                }),
+            ViteImageOptimizer({
+                /* pass your config */
             }),
         ],
-    }
-}
+    };
+});
