@@ -9,7 +9,11 @@ export default defineConfig(() => {
             rollupOptions: {
                 input: {
                     main: resolve(__dirname, 'index.html'),
-                    cases: resolve(__dirname, 'cases.html')
+                    cases: resolve(__dirname, 'cases.html'),
+                    instories: resolve(__dirname, 'instories.html'),
+                    sber: resolve(__dirname, 'sber.html'),
+                    sibur: resolve(__dirname, 'sibur.html'),
+                    rostelecom: resolve(__dirname, 'rostelecom.html'),
                 }
             }
         },
