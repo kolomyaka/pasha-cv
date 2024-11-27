@@ -25,7 +25,8 @@ body {
 }
 
 .container {
-  margin: 32px 32px 32px 32px;
+  max-width: 1216px;
+  margin: 32px auto;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -44,4 +45,12 @@ body {
 
 .row {
   display: flex;
+}
+
+.red {
+  color: #FB0203;
+}
+
+.mb20 {
+  margin-bottom: 20px;
 }
