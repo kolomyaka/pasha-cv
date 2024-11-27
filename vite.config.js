@@ -14,6 +14,8 @@ export default defineConfig(() => {
                     sber: resolve(__dirname, 'sber.html'),
                     sibur: resolve(__dirname, 'sibur.html'),
                     rostelecom: resolve(__dirname, 'rostelecom.html'),
+                    design: resolve(__dirname, 'design.html'),
+                    about: resolve(__dirname, 'about.html'),
                 }
             }
         },
