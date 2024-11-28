@@ -429,6 +429,11 @@
     gap: 12px;
     flex-grow: 1;
     flex-shrink: 1;
+
+    &:hover .other-cases__card {
+      transition: transform 0.3s ease-in-out;
+      transform: scale(1.03);
+    }
   }
 
   &__footer {
@@ -450,6 +455,8 @@
     flex-direction: column;
     gap: 12px;
     height: 226px;
+
+    transition: transform 0.3s ease;
   }
 
 
