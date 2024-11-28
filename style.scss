@@ -30,6 +30,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  &.main .header {
+    position: static;
+  }
 }
 
 .video {
