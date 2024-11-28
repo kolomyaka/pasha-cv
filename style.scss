@@ -26,14 +26,10 @@ body {
 
 .container {
   max-width: 1216px;
-  margin: 32px auto;
+  margin: 32px auto 100px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-
-  &.main {
-    margin-bottom: 120px;
-  }
 }
 
 .video {
