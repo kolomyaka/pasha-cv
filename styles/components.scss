@@ -544,6 +544,10 @@
     font-weight: 600;
     font-family: "Unbounded", system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin-bottom: 20px;
+
+    &.mt52 {
+      margin-top: 52px;
+    }
   }
 }
 
@@ -580,7 +584,7 @@
   &__list {
     list-style: inherit;
     padding-left: 16px;
-    margin-bottom: 80px;
+    margin-bottom: 32px;
 
     & li {
       font-size: 18px;
@@ -609,7 +613,6 @@
   }
 
   &__item {
-    margin-bottom: 52px;
 
     &:last-of-type {
       margin-bottom: 80px;
