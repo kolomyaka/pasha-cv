@@ -1,6 +1,6 @@
 .header {
   background-color: rgba(31, 31, 31, 1);
-  padding: 27px 20px;
+  padding: 20px;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -50,19 +50,28 @@
   }
 
   &__sv {
+    width: 42.88px;
     background-color: #fff;
+
+    & img {
+      width: 10.34px
+    }
   }
 
   &__tg {
+    width: 47.5px;
     background-color: #0886FA;
+
+    & img {
+      width: 15.83px;
+    }
   }
 
   &__sv, &__tg {
+    height: 26.39px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 72px;
-    height: 40px;
     border-radius: 4px;
   }
 }
