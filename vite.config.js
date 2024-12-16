@@ -23,6 +23,7 @@ export default defineConfig(() => {
         base: 'pasha-cv',
         plugins: [
             ViteImageOptimizer({
+                exclude: ['**/*.gif'],
                 /* pass your config */
             }),
         ],
