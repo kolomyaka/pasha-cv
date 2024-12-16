@@ -22,10 +22,10 @@ export default defineConfig(() => {
         // needed for github pages just put the repo name here
         base: 'pasha-cv',
         plugins: [
-            ViteImageOptimizer({
-                exclude: ['**/*.gif'],
-                /* pass your config */
-            }),
+            // ViteImageOptimizer({
+            //     exclude: ['**/*.gif'],
+            //     /* pass your config */
+            // }),
         ],
     };
 });
